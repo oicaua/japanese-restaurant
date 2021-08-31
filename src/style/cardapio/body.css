@@ -1,0 +1,35 @@
+.itens-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-menu {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 350px;
+    transition: all 0.3s ease-out;
+}
+
+.card-menu > h2 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.card-menu:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card-menu-text {
+    color: black;
+    font-size: 17px;
+}
+
+.image-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

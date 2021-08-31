@@ -1,0 +1,125 @@
+.head-menu {
+    background-color: #02021A;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px 20px 10px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.title-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    font-size: 21px;
+    color: white;
+    padding-left: 10px;
+}
+
+.menu-pages-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    font-size: 21px;
+    color: white;
+}
+
+.menu-pages-head > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-pages-head > a:hover {
+    color: lightblue;
+}
+
+.body-head {
+    background-color: black;
+    background-image: url("../../images/home/BackgroundHome.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 0px 100px 0px;
+}
+
+.body-head-text > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: 500;
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.body-head-subtitle > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.ifood-button-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ifood-button-home > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow-down-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow-down-head > i {
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+    .title-head {
+        display: none;
+    }
+    .menu-pages-head {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-pages-head {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 930px) {
+    .body-head-text > h1 {
+        font-size: 35px;
+    }
+    .body-head-subtitle > h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .body-head-text > h1 {
+        font-size: 25px;
+    }
+    .body-head-subtitle > h3 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,32 @@
+.footer {
+    background-color: #02021A;
+    color: white;
+    padding: 50px 10px 50px 10px;
+}
+
+.footer > span > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-footer {
+    margin: 0px 20px 0px 20px;
+    font-style: normal;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+@media (max-width: 680px) {
+    .mobile-footer {
+        display: block;
+    }
+    .web-footer {
+        display: none;
+    }
+    .info-footer {
+        margin: 5px 30px 5px 30px;
+    }
+}

@@ -1,0 +1,62 @@
+.title-body > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 36px;
+}
+
+.title-body > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 22px;
+}
+
+.little-menu {
+    margin-bottom: 20px;
+}
+
+.little-menu > h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-carrousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-carrousel > img {
+    width: 286px;
+    margin: 5px;
+}
+
+.button-to-menu {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-to-menu > button {
+    background-color: #38214F;
+    border-color: #38214F;
+}
+
+.button-to-menu > button:hover {
+    background-color: #02021A;
+    border-color: #02021A;
+}
+
+.button-to-menu > button > a {
+    text-decoration: none;
+    color: white;
+}   

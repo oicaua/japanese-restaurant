@@ -1,0 +1,21 @@
+{
+  "name": "restaurantejapones",
+  "version": "1.0.0",
+  "description": "Website for a Japanese Restaurant",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Caua Perrella Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "pm2": "^5.1.0",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
