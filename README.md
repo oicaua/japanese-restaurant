@@ -6,7 +6,7 @@
 ## Description
 ##### A Website dedicated to Japanese Food. The home page shows the identity of the Restaurant and talks a little bit about who they are.
 ##### The menu page (called in Portuguese "Cardapio") is where the good part shows up. A carousel with the spotlights and the complete menu below.
-##### The about us page (called in Portuguese "Sobre" or "Sobre nós") is where the main things to the Restaurant as a company is said.
+##### The about us page (called in Portuguese "Sobre" or "Sobre nós") is where the main things to the Restaurant as a company are said.
 
 ## See it by yourself
 ##### Try it on: {maintenance}
