@@ -2,6 +2,7 @@
     background-color: #02021A;
     color: white;
     padding: 50px 10px 50px 10px;
+    overflow: hidden;
 }
 
 .footer > span > div {
@@ -17,6 +18,8 @@
 
 .mobile-footer {
     display: none;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 @media (max-width: 680px) {
