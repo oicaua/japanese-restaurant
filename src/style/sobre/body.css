@@ -28,6 +28,10 @@
     margin: 0px 0px 50px 0px;
 }
 
+.image-2-mobile {
+    display: none;
+}
+
 @media (max-width: 1030px) {
     .image-1 {
         height: 243px;
@@ -41,15 +45,24 @@
 }
 
 @media (max-width: 767px) {
-    .image-1 {
-        display: none;
+    .title-menu {
+        display:none;
+    }
+    .image-1-place {
+        margin: 30px 0px 30px 0px;
     }
     .image-2 {
         display: none;
     }
+    .image-2-mobile {
+        display: flex;
+        height: 258px;
+        width: 388px;
+        border-radius: 50px;
+        margin: 20px 0px 50px 0px;
+    }
     .image-2-place {
-        padding: 30px 0px 30px 0px;
-        background-color: rgb(239, 186, 252);
+        margin: 30px 0px 30px 0px;
     }
     .text-2 {
         margin: 0px 0px 0px 10px;
