@@ -9,4 +9,5 @@
 ##### The about us page (called in Portuguese "Sobre" or "Sobre nós") is where the main things to the Restaurant as a company are said.
 
 ## See it by yourself
-##### Try it on: {maintenance}
+##### Try it on: https://ohayo-sushi.netlify.app/public/index.html
+###### (Free host may have sometimes low connection)
